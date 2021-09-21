@@ -19,7 +19,7 @@ class MyAtm{
 			cout<<"Enter name:\n";
 			cin.ignore();
 			
-			getline(cin , name);//ignore() function is used which is used to ignore or clear one or more characters from the input buffer. ... For example, after entering into the cin statement, we need to input a character array or string. So we need to clear the input buffer, otherwise it will occupy the buffer of previous variable.
+			getline(cin , name);//ignore() function is used which is used to ignore or clear one or more characters from the input buffer.
 			cout<<"Enter Account number:\n";
 			cin>>accnumber;
 			cout<<"Enter account type:\n";
